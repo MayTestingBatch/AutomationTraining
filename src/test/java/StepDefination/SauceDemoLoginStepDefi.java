@@ -43,6 +43,12 @@ public class SauceDemoLoginStepDefi  extends DriverInit{
            }
            Assert.assertTrue(condition);
 	}
+	
+	@Then("user click on logout button")
+	public void user_click_on_logout_button() {
+	   driver.findElement(By.xpath("//a[text()='Logout']")).click();
+	}
+
 
 	@Then("user close the browser")
 	public void user_close_the_browser() {

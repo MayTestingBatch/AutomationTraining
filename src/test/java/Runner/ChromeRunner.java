@@ -9,7 +9,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		dryRun = false,// it will provide snippet of code of unimplemented code
 		glue = {"StepDefination"},
 		snippets = SnippetType.UNDERSCORE,
-		tags = "@homepage", // In bdd by using tags we can control execution of scenarios
+		tags = "@testlogout", // In bdd by using tags we can control execution of scenarios
 		plugin = {"pretty", "html:CucumberReport", "rerun:target/failedrerun.txt"}
 		)
 
